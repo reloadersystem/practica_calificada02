@@ -71,6 +71,9 @@
                                 <state key="normal" title="Agregar Película">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="agregarPelicula:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eTZ-nT-cpe"/>
+                                </connections>
                             </button>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="6nP-kK-utq">
                                 <rect key="frame" x="56" y="137" width="177" height="29"/>
@@ -90,6 +93,8 @@
                     <connections>
                         <outlet property="contenedorImage" destination="dbQ-rq-xgk" id="Efe-e6-R4K"/>
                         <outlet property="miSegment" destination="6nP-kK-utq" id="e5f-0K-Joa"/>
+                        <outlet property="textNuevaImagen" destination="Hvm-v6-z7p" id="QZd-dW-TCy"/>
+                        <outlet property="textNuevaPelicula" destination="fKH-qy-EuR" id="A7J-Fy-Vb6"/>
                         <outlet property="textTitulo" destination="2Fi-f2-6tK" id="QxV-P5-kEm"/>
                     </connections>
                 </viewController>

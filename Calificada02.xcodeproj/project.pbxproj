@@ -13,7 +13,6 @@
 		8A0D12D12300C2ED00C4ACA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A0D12D02300C2ED00C4ACA1 /* Assets.xcassets */; };
 		8A0D12D42300C2ED00C4ACA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A0D12D22300C2ED00C4ACA1 /* LaunchScreen.storyboard */; };
 		8A0D12DC2300DA5800C4ACA1 /* FuenteDatos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0D12DB2300DA5800C4ACA1 /* FuenteDatos.swift */; };
-		8A0D12E02301059800C4ACA1 /* FuenteDiccionario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0D12DF2301059800C4ACA1 /* FuenteDiccionario.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +24,6 @@
 		8A0D12D32300C2ED00C4ACA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A0D12D52300C2ED00C4ACA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A0D12DB2300DA5800C4ACA1 /* FuenteDatos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuenteDatos.swift; sourceTree = "<group>"; };
-		8A0D12DF2301059800C4ACA1 /* FuenteDiccionario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuenteDiccionario.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +63,6 @@
 				8A0D12D22300C2ED00C4ACA1 /* LaunchScreen.storyboard */,
 				8A0D12D52300C2ED00C4ACA1 /* Info.plist */,
 				8A0D12DB2300DA5800C4ACA1 /* FuenteDatos.swift */,
-				8A0D12DF2301059800C4ACA1 /* FuenteDiccionario.swift */,
 			);
 			path = Calificada02;
 			sourceTree = "<group>";
@@ -142,7 +139,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A0D12CC2300C2EC00C4ACA1 /* ViewController.swift in Sources */,
-				8A0D12E02301059800C4ACA1 /* FuenteDiccionario.swift in Sources */,
 				8A0D12DC2300DA5800C4ACA1 /* FuenteDatos.swift in Sources */,
 				8A0D12CA2300C2EC00C4ACA1 /* AppDelegate.swift in Sources */,
 			);

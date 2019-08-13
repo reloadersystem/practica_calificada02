@@ -15,23 +15,22 @@ class FuenteDatos {
         let p1 = ["Kpeliculas":"Srcheck", "Kimage":"shrek"]
         let p2 = ["Kpeliculas":"capitan", "Kimage":"capitan"]
         
-        var arraypeliculas = [p1, p2]
-        let p3 = ["Kpeliculas":"Simpson", "Kimage":"simpson"]
+        var arraypeliculas = [p1]
+//        let p3 = ["Kpeliculas":"Simpson", "Kimage":"simpson"]
         
         var diccionarioPeliculas = [String : String]()
-        
         
         
         let keydata = "Kpeliculas"
         let dato = "park"
         
         diccionarioPeliculas[keydata] = dato
-         print(diccionarioPeliculas)
+        print(diccionarioPeliculas)
         
         
         
 //        arraypeliculas.append(p3)
-        arraypeliculas.insert(p3, at: 0)
+//        arraypeliculas.insert(p3, at: 0)
         print(arraypeliculas)
         
         
@@ -48,5 +47,12 @@ class FuenteDatos {
             print("llave: \(p1)")
         }
         
+        
+        
         }
+    
+    
+    
+    
+    
 }
