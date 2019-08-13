@@ -53,16 +53,12 @@ class ViewController: UIViewController {
         let nImage = textNuevaImagen.text ?? ""
         
         
-        let keydata = "Kpeliculas"
-        let dato = "Simpson"
+//        let keydata = "Kpeliculas"
+//        let dato = "Simpson"
+    
+//        arrayPeliculas.append([keydata : dato])
         
-//        diccionarioPeliculas[keydata] = dato
-        
-//        let p3 = ["Kpeliculas":"Simpson", "Kimage":"simpson"]
-        
-        arrayPeliculas.append([keydata : dato])
-        
-        print(arrayPeliculas)
+//        print(arrayPeliculas)
         
         
         
